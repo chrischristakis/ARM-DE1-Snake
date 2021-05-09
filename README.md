@@ -5,6 +5,8 @@ It uses C and is one file with a header to access hardware addresses for a few p
 If you would like to run it, visit https://cpulator.01xz.net/?sys=arm-de1soc and load in the .axf file,
 then you should be good to go and see the output on the Pixel buffer. Controls are with the push buttons.
 
+<img width="500px" src="snakeshot.PNG">
+
 To note: There is flickering on the screen, that's because I'm redrawing the entire buffer every clock pulse.
 This can be fixed using double buffering, but for a prototype school project that wasn't really necessary,
 and I haven't looked into the registers that the board uses to modify double buffering, or perhaps it would
